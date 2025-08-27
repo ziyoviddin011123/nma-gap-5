@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+header {
+  background: #1a1a1a;
+  padding: 10px 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a.active,
+.nav-links li a:hover {
+  color: orange;
+}
+
+.lang-search {
+  display: flex;
+  gap: 10px;
+}
+
+.lang-search input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.lang-search select {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Hero Banner */
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+/* Updates Section */
+.updates {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.updates h2 {
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cards .card img {
+  width: 220px;
+  border-radius: 10px;
+}
+
+/* Champions */
+.champions, .stage {
+  padding: 40px 20px;
+}
+
+.champ-content, .stage-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.champ-content img,
+.stage-content img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background: #1a1a1a;
+  text-align: center;
+  padding: 15px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+
+footer ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer ul li a:hover {
+  color: orange;
+}
